@@ -13,4 +13,29 @@
 }
 .nav__link{
   color:#2e363e;
+  position: relative;
+}
+
+.nav__notification{
+  background-color: tomato;
+  color:white;
+  width:30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  position: absolute; /* 말풍선 위에 겹침 . 부모 container에 position : relative*/
+  left: 15px;
+  bottom: 15px;
+}
+.nav__notification_2{
+  background-color: tomato;
+  width:5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 30px;
 }
